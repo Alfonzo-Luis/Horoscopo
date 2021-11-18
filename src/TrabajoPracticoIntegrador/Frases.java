@@ -14,7 +14,12 @@ public class Frases {
                     "Te sorprenderá saber que tu pareja está pensando en la descendencia.",
                     "Nunca podrás alcanzar una vida sin problemas o vicisitudes.",
                     "Lo importante es darle al amor el lugar que merece en ella.",
-                    "Harás entender a tu pareja que necesita poner su granito de arena para hacer funcionar la relación." };
+                    "Harás entender a tu pareja que necesita poner su granito de arena para hacer funcionar la relación.",
+                    "Te encontrarás con el cruce del destino.",
+                    "No te rindas hay algo bueno al final.",
+                    "Hoy todo saldra como tu lo esperas.",
+                    "Confia, está bien."
+            };
 
     public String[] dinero = new String[]
             {
@@ -24,6 +29,10 @@ public class Frases {
                     "Sufrirás grandes desilusiones en ciertos proyectos en los que habías invertido mucho tiempo. Todo se compondrá pronto!",
                     "Lograrás dejar claro en tu ambiente laboral que no eres el tipo de persona que tolera abusos.",
                     "Entrarás en pánico al ver que se está volviendo imposible cumplir con tus fechas límites. No temas, todo saldrá bien!",
+                    "La suerte esta de tu lado.",
+                    "Si te caes, ¡levántate!",
+                    "Reclamaras lo que te pertenece por tu destino.",
+                    "Tienes el favor de Hades."
             };
 
     public String[] bienestar = new String[]
@@ -34,6 +43,10 @@ public class Frases {
                     "Aprende de tus vivencias o estarás condenado a repetirlas.",
                     "Presta atención a cada paso que das y vivirás una vida más plena y libre de escollos.",
                     "La clave del éxito reside en la forma en la cual administras los recursos a tu alcance.",
+                    "Piensa antes de actuar.",
+                    "Cuidado una tormenta se aproxima.",
+                    "La salud es mental y fisica.",
+                    "Controla tus emociones, cometeras errores si te dejas llevar."
             };
 
     public String obtenerFrase(LocalDate fechaNac)
