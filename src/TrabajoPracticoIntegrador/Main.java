@@ -170,7 +170,7 @@ public class Main {
 
 
         try {
-            FileWriter escritura = new FileWriter("C:/Users/roma_/desktop/Horoscopo/Destino.txt");
+            FileWriter escritura = new FileWriter("Destino.txt");
             for (int i = 0; i < texto.length(); i++) {
                 escritura.write(texto.charAt(i));
 
@@ -187,7 +187,7 @@ public class Main {
     public static void leer(String texto){
 
         try {
-            FileReader entrada = new FileReader("C:/Users/roma_/desktop/Horoscopo/Destino.txt");
+            FileReader entrada = new FileReader("Destino.txt");
 
             BufferedReader miBuffer = new BufferedReader(entrada);
             String linea = "";
