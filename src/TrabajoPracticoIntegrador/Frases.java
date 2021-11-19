@@ -61,7 +61,7 @@ public class Frases {
         Random ram1 = new Random(randomDay+semana());
         Random ram2 = new Random(randomDay+semana());
         int r = ram1.nextInt(3);
-        int r2 = ram2.nextInt(6);
+        int r2 = ram2.nextInt(10);
 
         if (r ==1 )
         {
